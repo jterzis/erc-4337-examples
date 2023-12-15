@@ -12,10 +12,21 @@ The implementation for all commands are located in the [scripts directory](./scr
 
 > **🚀 Looking for access to hosted infrastructure to build your Smart Accounts? Check out [stackup.sh](https://www.stackup.sh/)!**
 
+# Local development
+```
+# init config.json
+yarn run init
+# set api key, signer, context in config.json
+# run simpleAccount transfer to a wallet adddress
+yarn run simpleAccount erc20Transfer --to $USEROP_ADDR --amount 0 --withPaymaster 
+```
+
+
 # License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 # Contact
+
 
 Feel free to direct any technical related questions to the `dev-hub` channel in the [Stackup Discord](https://discord.gg/VTjJGvMNyW).
